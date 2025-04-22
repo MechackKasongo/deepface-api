@@ -1,7 +1,10 @@
+
 services:
   - type: web
     name: deepface-api
     env: python
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: python app.py
-    runtime: python
+    envVars:
+      - key: PORT
+        value: 10000
