@@ -2,3 +2,7 @@ flask
 numpy
 scikit-learn
 joblib
+
+Pillow
+deepface
+
